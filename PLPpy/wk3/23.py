@@ -15,3 +15,6 @@ def update(x):
     x = 10
     print(x)
 update(12)
+# Pass/call by value it passes as a value not a variable // Not applicable in python
+# Pass by reference it passes the address itself //Not applicable in python
+# if id is same value will change
