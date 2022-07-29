@@ -25,10 +25,35 @@
 
 # # f.tell() shows current position on read
 # # f.seek() sends read to start at the start
+# Seek(0) starts at the beginning of the file
 
 # # print(f.closed)
 
 
 
-with open('test.txt', 'w') as f:
-    pass
+# with open('test.txt', 'w') as f:
+#     f.write("TEST2")
+
+# with open('tt.txt', 'r') as rf:
+#     with open("ttcopy.txt", 'w') as wf:
+#         for line in rf:
+#             wf.write(line)
+
+# --------------
+# writing reading jpeg files
+# we use binary so read 'r' becomes 'rb' read binary
+# 'w' becomes 'wb' write binary
+
+# with open ('121.jpg', 'rb') as rf:
+#     with open('12_ccopy.jpg', 'wb') as wf:
+#         for line in rf:
+#             wf.write(line)
+
+
+# with open ('121.jpg', 'rb') as rf:
+#     with open('121_ccnopy.jpg', 'wb') as wf:
+#         chunk_size = 4096
+#         rf_chunk = rf.read(chunk_size)
+#         while len(rf_chunk) > 0:
+#             wf.write(rf_chunk)
+#             rf_chunk = rf.read(chunk_size)
