@@ -1,0 +1,35 @@
+Django is a python web framework 
+
+A framework is a combination of components and packages.
+
+Works with MVT
+Model - data from the database // models.py
+View - request handler //views.py
+Template - a txt file like a html file with the layout of the webpage //templates
+
+URLs - provides a way of navigating around different pages on a site //urls.py
+
+Django is fast, has many components, security, scalability
+
+
+Installing Django
+Prerequisite
+python
+Pip
+venv - sudo nala/apt install python3.10-venv
+
+create virtual environment - python3 -m venv <filename>
+source path to bin /dj1/bin/activate
+
+Install Django
+python3 -m pip install Django
+
+
+Check Django version
+django-admin --version
+
+start
+django-admin startproject <projectname>
+
+start server
+py manage.py runserver
