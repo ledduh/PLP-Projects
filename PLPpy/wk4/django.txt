@@ -32,4 +32,6 @@ start
 django-admin startproject <projectname>
 
 start server
-py manage.py runserver
+python manage.py runserver
+
+An app in django is can be a home page, contact form or members database
