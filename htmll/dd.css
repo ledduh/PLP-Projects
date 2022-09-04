@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 22px;
+    background-color: bisque;
+    color: #fff;
+}
+
+a:hover{
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+
+.image{
+    row-gap: 50px;
+    column-gap: 100px;
+ 
+}
