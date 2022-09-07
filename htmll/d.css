@@ -1,0 +1,42 @@
+.topnav {
+    background-color: green;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: aqua;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: blueviolet;
+    color:blue;
+}
+
+.topnav a.active{
+    background-color: rgb(94, 67, 31);
+    color: white;
+}
+
+.grid {
+    display: inline-flex;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+h1 {
+text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 400px ;
+    grid-gap: 10px;
+}
+.log {
+    justify-content: flex-end;
+}
